@@ -1,4 +1,4 @@
-# Como saber o tipo primitivo de um valor
-n1 = (input("Insira um valor: "))
-n2 = (input('Insira outo valor: '))
-print('A soma dos valores é: {}'.format((n1)+(n2)))
+n1 = float(input("Insira um valor real: "))
+n2 = int(input("Insira um valor inteiro: "))
+
+print("A soma entre {} e {} é: {}".format(n1, n2, (n1)+(n2)))

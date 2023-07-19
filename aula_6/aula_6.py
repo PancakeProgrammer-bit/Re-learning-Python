@@ -33,3 +33,9 @@ print('A soma dos valores é: {}'.format((n1)+(n2)))  # Vai dar 8 se for 5+3
 n1 = (input("Insira um valor: "))
 n2 = (input('Insira outo valor: '))
 print('A soma dos valores é: {}'.format((n1)+(n2)))  # vai dar 53 se for 5+3
+
+# Somando um valor inteiro com um valor real
+n1 = float(input("Insira um valor real: "))
+n2 = int(input("Insira um valor inteiro: "))
+
+print("A soma entre {} e {} é: {}".format(n1, n2, (n1)+(n2)))
