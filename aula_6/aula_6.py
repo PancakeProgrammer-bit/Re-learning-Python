@@ -39,3 +39,13 @@ n1 = float(input("Insira um valor real: "))
 n2 = int(input("Insira um valor inteiro: "))
 
 print("A soma entre {} e {} é: {}".format(n1, n2, (n1)+(n2)))
+
+# Convertendo valores
+n1 = float(input('Digite um valor: '))
+print(n1)
+
+# O mesmo vale para Strings e Boolean
+n1 = str(input("Digite um valor: "))
+n2 = bool(input('Digite outro valor: '))
+print(n1)
+print(n2)
