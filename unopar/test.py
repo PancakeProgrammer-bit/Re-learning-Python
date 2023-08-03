@@ -6,3 +6,4 @@ if valor1 > valor2:
     print("O primeiro valor é maior que o segundo.")
 else:
     print('O segundo valor é maior que o primeiro.')
+# aaa
